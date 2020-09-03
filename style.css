@@ -1,0 +1,51 @@
+#navbar{
+    position: fixed;
+    left:0;
+    border-right: 2px solid grey;
+    width: 20%;
+    height:100%;
+    text-align: left;
+}
+.nav-link{
+    display:block;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    padding: 20px 20px;
+    font-size: large;
+}
+#main-doc{
+    width: 80%;
+    float:right;
+}
+#nav-header{
+    border-bottom: 1px solid black;
+    padding: 30px 20px;
+    font-weight: 100;
+    font-size: x-large;
+}
+@media (max-width: 600px)
+{
+    #navbar{
+        display:none;
+    }
+}
+@media (max-width: 800px)
+{
+    .nav-link{
+        font-size:medium;
+    }
+    #nav-header{
+        font-size:large;
+    }
+}
+.main-section header{
+    font-weight: bold;
+    font-size: 20px;
+}
+code{
+    background-color: lightblue;
+    border-radius: 2px;
+    padding: 5px;
+    display: block;
+    margin: 5px;
+}
